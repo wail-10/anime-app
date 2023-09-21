@@ -45,7 +45,7 @@ const Home = () => {
             <div className='mt-[104px] py-8'>
                 <div className='w-4/5 mx-auto'>
                     <Hero />
-                    <h2 className="text-white text-3xl font-semibold mb-2 mt-6 pl-4 border-l-8 uppercase border-[#e53637]">Anime Genres</h2>
+                    {/* <h2 className="text-white text-3xl font-semibold mb-2 mt-6 pl-4 border-l-8 uppercase border-[#e53637]">Anime Genres</h2> */}
                     {/* <Carousel /> */}
                     {/* Top Animes */}
                     <h2 className="text-white text-3xl font-semibold mb-2 mt-6 pl-4 border-l-8 uppercase border-[#e53637]">Top Animes</h2>
