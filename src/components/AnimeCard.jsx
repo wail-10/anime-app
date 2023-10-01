@@ -2,7 +2,7 @@ import React from 'react'
 
 const AnimeCard = ({ imageUrl, score, genres, title }) => {
     return (
-        <div className='max-w-xs rounded-lg shadow-md'>
+        <div className='max-w-xs rounded-lg shadow-md mx-2'>
             <div className="relative">
                 {/* Image  */}
                 <div>
@@ -26,7 +26,7 @@ const AnimeCard = ({ imageUrl, score, genres, title }) => {
                 ))}
             </div>
 
-              {/* Title */}
+            {/* Title */}
             <div className="p-2 text-center">
                 <h2 className="text-xl font-bold text-white uppercase">{title}</h2>
             </div>

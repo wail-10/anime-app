@@ -4,6 +4,10 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './pages/Home';
+import Animes from './pages/Animes';
+import Manga from './pages/Manga';
+import Characters from './pages/Characters';
+import AnimeDetails from './pages/AnimeDetails';
 
 function App() {
 
@@ -11,7 +15,23 @@ function App() {
     {
       path: "/",
       element: <Home />,
-    }
+    },
+    {
+      path: "/anime",
+      element: <Animes />,
+    },
+    {
+      path: "/manga",
+      element: <Manga />,
+    },
+    {
+      path: "/characters",
+      element: <Characters />,
+    },
+    {
+      path: "/anime/:id",
+      element: <AnimeDetails />,
+    },
   ]);
 
   return (
