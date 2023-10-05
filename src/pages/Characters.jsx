@@ -31,6 +31,7 @@ const Characters = () => {
                                         <CharacterCard
                                             imageUrl={character.images.jpg}
                                             name={character.name}
+                                            favorites={character.favorites}
                                         />
                                     </Link>
                                 </div>

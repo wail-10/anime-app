@@ -10,7 +10,7 @@ const Animes = () => {
     const [animes, setAnimes] = useState([])
 
     useEffect(() => {
-        // top animes
+        // all animes
         axios.get('https://api.jikan.moe/v4/anime')
         .then(res => {
             setAnimes(res.data.data)
@@ -33,7 +33,6 @@ const Animes = () => {
                                         <AnimeCard 
                                             imageUrl={anime.images.jpg}
                                             score={anime.score}
-                                            genres={anime.genres}
                                             title={anime.title}
                                         />
                                     </Link>

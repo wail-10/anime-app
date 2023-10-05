@@ -29,11 +29,10 @@ const Manga = () => {
                         <div className="flex flex-wrap -mx-4">
                             {mangas.map((manga, index) => (
                                 <div key={index} className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-4 my-4">
-                                    <Link to={`/animes/${manga.mal_id}`}>
+                                    <Link to={`/manga/${manga.mal_id}`}>
                                         <AnimeCard 
                                             imageUrl={manga.images.jpg}
                                             score={manga.score}
-                                            genres={manga.genres}
                                             title={manga.title}
                                         />
                                     </Link>

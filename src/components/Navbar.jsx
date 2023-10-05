@@ -79,48 +79,6 @@ const Navbar = () => {
                 </div>
             </div>
         </nav>
-        // <nav className="sm:px-16 px-6 w-full flex items-center py-5 fixed top-0 z-20 bg-indigo-600">
-        //     <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
-        //         <Link to="/" className="flex item-center gap-2">
-        //             <img src="https://i.pinimg.com/564x/2f/f2/6e/2ff26e3f3e260998f403b4052b3d8106.jpg" alt="logo" className="h-10 object-contain" />
-        //         </Link>
-        //         <ul className="list-none hidden sm:flex flex-row gap-10">
-        //             {navLinks.map((link) => (
-        //                 <li
-        //                 key={link.page}
-        //                 className="text-white hover:text-indigo-200 text-[18px] font-medium cursor-pointer"
-        //                 >
-        //                     <Link to={link.link}>{link.page}</Link>
-        //                 </li>
-        //             ))}
-        //         </ul>
-                // <div className="sm:hidden flex flex-1 justify-end items-center">
-                //     <div 
-                //         className="block md:hidden text-white"
-                //         onClick={() => setToggle(!toggle)}
-                //     >
-                //         <Hamburger />
-                //     </div>
-                //     <div className={`${toggle ? 'flex' 
-                //     : 'hidden'} p-6 bg-indigo-600 absolute top-20
-                //     right-0 mx-4 my-2 min-w-[140px] z-10`}>
-                //         <ul className="list-none flex justify-end items-start flex-col gap-4 text-white">
-                //             {navLinks.map((link) => (
-                //                 <li
-                //                     key={link.page}
-                //                     className="font-poppins font-medium cursor-pointer text-[16px]"
-                //                     onClick={() => {
-                //                     setToggle(!toggle)
-                //                     }}
-                //                 >
-                //                     <Link to={link.link}>{link.page}</Link>
-                //                 </li>
-                //             ))}
-                //         </ul>
-                //     </div>
-                // </div>
-        //     </div>
-        // </nav>
     );
 };
 
