@@ -8,6 +8,7 @@ import Animes from './pages/Animes';
 import Manga from './pages/Manga';
 import Characters from './pages/Characters';
 import AnimeDetails from './pages/AnimeDetails';
+import MangaDetails from './pages/MangaDetails';
 
 function App() {
 
@@ -31,6 +32,10 @@ function App() {
     {
       path: "/anime/:id",
       element: <AnimeDetails />,
+    },
+    {
+      path: "/manga/:id",
+      element: <MangaDetails />,
     },
   ]);
 
