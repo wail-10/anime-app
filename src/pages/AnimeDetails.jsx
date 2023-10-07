@@ -101,7 +101,7 @@ const AnimeDetails = () => {
                                     {characters ? (
                                         <Slider {...settings2}>
                                             {characters.map((character, index) => (
-                                                <Link to={`/characters/${character.mal_id}`} key={index} className='mt-8'>
+                                                <Link to={`/characters/${character.character.mal_id}`} key={index} className='mt-8'>
                                                     <CharacterCard
                                                         imageUrl={character.character.images.jpg}
                                                         name={character.character.name}
