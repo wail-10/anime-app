@@ -20,7 +20,7 @@ const Home = () => {
 
     useEffect(() => {
         // top animes
-        axios.get('https://api.jikan.moe/v4/top/anime')
+        axios.get("https://api.jikan.moe/v4/top/anime")
         .then(res => {
             setAnimes(res.data.data)
         })
