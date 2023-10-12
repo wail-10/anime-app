@@ -42,7 +42,7 @@ const Navbar = () => {
                     ))}
                 </ul>
                 {/* Search */}
-                <div className="relative md:ml-4">
+                {/* <div className="relative md:ml-4">
                     <input
                         type="text"
                         id="search"
@@ -50,7 +50,7 @@ const Navbar = () => {
                         className="pl-12 pr-4 py-2 rounded-lg bg-white text-[#070720] placeholder:text-[#070720] focus:outline-none focus:ring focus:ring-[#070720]"
                     />
                     <BsSearch className="h-6 w-6 absolute left-2 top-2 text-[#070720]" />
-                </div>
+                </div> */}
                 {/* Responsive Links */}
                 <div className="md:hidden flex flex-1 justify-end items-center">
                     <div 
